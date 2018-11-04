@@ -1,4 +1,5 @@
 # hello-world
 this is a test to use github
 
-Here's another line of text to review this commit
+Here, there was a line that I deleted
+This line is included
