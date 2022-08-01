@@ -1,0 +1,59 @@
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+-----------------------------------------------INSTRUCTIONS--------------------------------------------------- 
+-- Donwload MYSQL from here: https://dev.mysql.com/downloads/mysql/                                         --
+-- Install MYSQL                                                                                            --
+-- After installation, execute:                                                                             --
+-- CREATE DATABASE world;                                                                                   --
+-- Quit MYSQL and execute:                                                                                  --
+-- mysql -u username -p world < https://raw.githubusercontent.com/e55010104110/hello-world/master/world.sql --
+-- Replace username with the username hyou created for your MYSQL installation                              --
+-- Make sure the 3 tables have been created: city, country, countrylanguage                                 --
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+
+-- 01 Top 10 cities with the highest population
+-- 02 District with the most cities
+-- 03 List of cities whose names end with “an”
+-- 04 Country with the most cities in Europe
+-- 05 List countries and head of state with the largest surface area from the Middle East region, in descending order by surface area
+-- 06 List of Government Forms and the count of countries by Continent (As columns)
+-- 07 List the names, surface area, and life expectancy of the countries under a Constitutional Monarchy in North America
+-- 08 Most recent country and year to gain independence and oldest country and year to gain independence in one table
+-- +-------+-------------------+
+-- | Name  | Independence Year |
+-- +-------+-------------------+
+-- | Palau |              1994 |
+-- | China |             -1523 |
+-- +-------+-------------------+
+-- 09 Head of State with most countries (include average life expectancy)
+-- 10 Country with more languages 
+-- 11 Top 5 countries where English is spoken by more than 60% of the population
+-- 12 List of cities that share the same name as the country (Column headers should say: City and Country)
+-- 13 Countries with the lowest and highest life expectancy in one table (Don't include nulls)
+-- 14 List the TOP 10 countries with the highest GNP per capita and the official language, ordered by GNP, highest to lowest
+-- 15 What is the government form with the lowest GNP per capita that is not zero? List the country, region and continent too
+-- 16 Which is the least spoken official language by population? 
+-- 17 List the country with the smallest surface area along with population, language and government form
+-- 18 List the top 10 countries with the largest surface area and number of districts
+-- 19 List the city, city population, country, country population and the official language of the Asian continent
+-- 20 List the country and a column named "Decades from Independence" that shows the number of decades that have passed since the independence year. Limit results to 20 rows and order by number of decades
+-- 21 List 20 rows with the following format: "Belgium is a country that belongs to the continent of Europe, with a population of 10239000 people, with a life expectancy of 77.8 years and they speak Dutch officially"
+-- 22 List the cities of USA, a column named "Size" that will show 2 categories: Big city (Pop > 1,000,000) and Small city (Pop < 1,000,000).
+-- 23 Create a list of city districts with the average life expectancy and total district population. Order by Population List 30 rows
+-- 24 List the heads of state, a column with the total number of countries under their command, another column with the total population under their command and the average life expectancy
+-- 25 List of continents with top 3 countries by population in descending order
+-- 26 List of districts whose district name contains "tr" or "ng" and population is > 30,000, in descending order 
+-- 27 List of cities from South America, official language and head of state 
+-- 28 List the cities of Africa and country where they speak French as the official language
+-- 29 List a column with the count of countries that belong to a population group (< 50000 then Small, between 50000 and 500000 then Medium, > 500000 then Large) Example:
+-- +-----------------+-------------------+
+-- | # of Countries  | Population Group  |
+-- +-----------------+-------------------+
+-- | #               |             Small |
+-- | #               |            Medium |
+-- | #               |            Large  |
+-- +-------+-----------------------------+
+-- 30 List region, country, country population, and most popular language of the country  
+-- 31 List the country, population and % of total population (LIMIT TO 30) 
